@@ -48,24 +48,6 @@ const Todos = () => {
       </List>
     </Container>
   )
-  //   <Container className={classes.container} maxWidth="md">
-  //           {
-  //               (<List>
-  //                   {todos &&(Object.values(todos)).map(todo => {
-  //                       return (
-  //                           <ListItem  >
-  //                               <ToDoItem
-  //                                 title={todo.title}
-  //                                 isDone = {todo.isDone}
-  //                                 todoID={todo.todoID}
-  //                               />
-  //                           </ListItem>
-  //                       )
-  //                   })}
-  //               </List>)
-  //           }
-  //       </Container>
-  // );
 };
 
 export default Todos;

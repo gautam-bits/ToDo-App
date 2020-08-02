@@ -54,24 +54,6 @@ const AddTodo = () => {
   };
   const classes = useStyles();
   return (
-    // <div>
-    //   <form action="">
-    //     <input
-    //       type="text"
-    //       name="addTodo"
-    //       value={presentToDo}
-    //       onChange={handleChange}
-    //     />
-    //     <button
-    //       onClick={(event) => {
-    //         event.preventDefault();
-    //         addNewTodo(presentToDo);
-    //       }}
-    //     >
-    //       Add Todo
-    //     </button>
-    //   </form>
-    // </div>
     <Container maxWidth="sm" className={classes.root}>
       <Grid container alignItems="center">
         <Grid item md={12}>

@@ -32,26 +32,6 @@ const ToDoItem = ({ isDone, title, todoID }) => {
       {title}
     </div>
   );
-    // <Container className={classes.container} maxWidth="md">
-    //   <List>
-    //     <ListItem key={item.id} button>
-    //         <ListItemIcon>
-    //             <CheckCircleIcon color="primary" />
-    //         </ListItemIcon>
-
-    //         <ListItemText primary={item.value} />
-    //         <ListItemSecondaryAction>
-    //             <IconButton edge="end" aria-label="edit" onClick={() => handleEdit(item)}>
-    //                 <EditIcon />
-    //             </IconButton>
-    //             <IconButton edge="end" aria-label="delete" onClick={() => handleDelete(item)}>
-    //                 <DeleteIcon />
-    //             </IconButton>
-    //         </ListItemSecondaryAction>
-    //     </ListItem>
-    //   </List>)
-
-    // </Container>
 };
 
 export default ToDoItem;
